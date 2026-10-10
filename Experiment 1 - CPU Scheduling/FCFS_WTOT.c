@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void fcfsWithoutAT(struct Process p[], int n);
-
+// 1. Define the struct first so the compiler knows it exists
 struct Process
 {
   int id;
@@ -10,6 +9,9 @@ struct Process
   int tat;
   int wt;
 };
+
+// 2. Declare the function prototype below the struct definition
+void fcfsWithoutAT(struct Process p[], int n);
 
 int main()
 {

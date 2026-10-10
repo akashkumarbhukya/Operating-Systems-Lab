@@ -1,4 +1,3 @@
-```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,7 +5,7 @@ int main(void)
 {
     int n, head;
 
-    printf("Roll No:25071A6211\n");
+    printf("Roll No:25071A6217\n");
     printf("Enter number of disk requests: ");
     scanf("%d", &n);
 
